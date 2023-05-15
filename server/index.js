@@ -10,6 +10,7 @@ const balances = {
   "0x1": 100,
   "0x2": 50,
   "0x3": 75,
+  "0x4": 80,
 };
 
 app.get("/balance/:address", (req, res) => {
